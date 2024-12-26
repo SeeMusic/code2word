@@ -1,0 +1,46 @@
+{
+  "name": "code2word",
+  "version": "0.1.0",
+  "description": "从代码仓库中提取代码并生成 Word 文档的智能工具",
+  "main": "main.js",
+  "bin": {
+    "code2word": "./main.js"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "preview": "node main.js -d",
+    "help": "node main.js --help"
+  },
+  "keywords": [
+    "code",
+    "word",
+    "document",
+    "generator",
+    "code-to-word",
+    "documentation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cloc": "2.0.0-cloc",
+    "commander": "12.1.0",
+    "docx": "^8.5.0"
+  },
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/code2word"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/code2word/issues"
+  },
+  "files": [
+    "src",
+    "config",
+    "main.js",
+    "README.md",
+    "LICENSE"
+  ]
+}
