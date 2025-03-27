@@ -18,6 +18,7 @@ const defaultIgnoreConfig = {
     '.fleet',
     '.eclipse',
     '.settings',
+    '.cursor',
 
     // 构建和缓存
     'build',
@@ -104,6 +105,7 @@ const defaultIgnoreConfig = {
     'conf',
     'config.js',
     'config.ts',
+    'cursorrules',
 
     // 类型声明
     'd.ts',
